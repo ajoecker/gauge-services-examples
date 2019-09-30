@@ -1,0 +1,8 @@
+{
+    popular_artists(size: $size) {
+        artists {
+            name
+            nationality
+        }
+    }
+}
