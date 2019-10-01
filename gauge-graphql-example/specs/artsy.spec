@@ -3,27 +3,27 @@
 * Use "https://metaphysics-production.artsy.net"
 
 ## popular artists must be matching
-* When sending <file:src/test/resources/popular_artists.graphql>
+* When posting <file:src/test/resources/popular_artists.graphql>
 * Then "popular_artists.artists.name" must be "Pablo Picasso, Banksy"
 
 ## popular artists contain matching
-* When sending <file:src/test/resources/popular_artists.graphql>
+* When posting <file:src/test/resources/popular_artists.graphql>
 * Then "popular_artists.artists.name" must contain "Pablo Picasso"
 
 ## popular artists contain multi matching
-* When sending <file:src/test/resources/popular_artists.graphql>
+* When posting <file:src/test/resources/popular_artists.graphql>
 * Then "popular_artists.artists.name" must contain "Pablo Picasso, Banksy"
 
 ## popular artists must be matching with map to parse
-* When sending <file:src/test/resources/popular_artists.graphql>
+* When posting <file:src/test/resources/popular_artists.graphql>
 * Then "popular_artists.artists" must be "{name: Pablo Picasso, nationality: Spanish}, {name: Banksy, nationality: British}"
 
 ## popular artists contain matching with map to parse
-* When sending <file:src/test/resources/popular_artists_variable.graphql> with "size:4"
+* When posting <file:src/test/resources/popular_artists_variable.graphql> with "size:4"
 * Then "popular_artists.artists" must contain "{name: Pablo Picasso, nationality: Spanish}"
 
 ## popular artists contain matching with table to parse
-* When sending <file:src/test/resources/popular_artists_variable.graphql> with 
+* When posting <file:src/test/resources/popular_artists_variable.graphql> with 
 
    |name|value|
    |----|-----|
@@ -31,7 +31,7 @@
 * Then "popular_artists.artists" must contain "{name: Pablo Picasso, nationality: Spanish}"
 
 ## popular artists must be matching with table
-* When sending <file:src/test/resources/popular_artists.graphql>
+* When posting <file:src/test/resources/popular_artists.graphql>
 * Then "popular_artists.artists" must be 
 
    |name         |nationality|
@@ -40,7 +40,7 @@
    |Banksy       |British    |
 
 ## popular artists contain matching with table
-* When sending <file:src/test/resources/popular_artists.graphql>
+* When posting <file:src/test/resources/popular_artists.graphql>
 * Then "popular_artists.artists" must contain 
 
    |name         |nationality|
