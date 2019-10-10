@@ -1,5 +1,5 @@
 {
-    popular_artists(size: $size) {
+    popular_artists(size: %size%) {
         artists {
             name
             nationality

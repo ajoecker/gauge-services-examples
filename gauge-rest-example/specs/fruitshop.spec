@@ -7,5 +7,5 @@
 * Then "name" must be "Apples"
 
 ## Post wild wildberries
-* When posting <file:/src/test/resources/wildberries>
+* When posting <file:/src/test/resources/wildberries.json>
 * Then "name" must be "Wildberries Wild"
