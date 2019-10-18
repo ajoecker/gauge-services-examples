@@ -4,8 +4,8 @@
 
 ## Get Apples
 * When getting "50"
-* Then "name" must be "Apples"
+* Then "name" is "Apples"
 
 ## Post wild wildberries
 * When posting <file:/src/test/resources/wildberries.json>
-* Then "name" must be "Wildberries Wild"
+* Then "name" is "Wildberries Wild"
