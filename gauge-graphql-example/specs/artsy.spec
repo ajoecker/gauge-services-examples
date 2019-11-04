@@ -2,25 +2,25 @@
 
 * Use "https://metaphysics-production.artsy.net"
 
-## popular artists must be matching
+## popular artists is matching
 * When posting <file:src/test/resources/popular_artists.graphql>
-* Then "popular_artists.artists.name" must be "Pablo Picasso, Banksy"
+* Then "popular_artists.artists.name" is "Pablo Picasso, Banksy"
 
 ## popular artists contain matching
 * When posting <file:src/test/resources/popular_artists.graphql>
-* Then "popular_artists.artists.name" must contain "Pablo Picasso"
+* Then "popular_artists.artists.name" contains "Pablo Picasso"
 
 ## popular artists contain multi matching
 * When posting <file:src/test/resources/popular_artists.graphql>
-* Then "popular_artists.artists.name" must contain "Pablo Picasso, Banksy"
+* Then "popular_artists.artists.name" contains "Pablo Picasso, Banksy"
 
-## popular artists must be matching with map to parse
+## popular artists is matching with map to parse
 * When posting <file:src/test/resources/popular_artists.graphql>
-* Then "popular_artists.artists" must be "{name: Pablo Picasso, nationality: Spanish}, {name: Banksy, nationality: British}"
+* Then "popular_artists.artists" is "{name: Pablo Picasso, nationality: Spanish}, {name: Banksy, nationality: British}"
 
 ## popular artists contain matching with map to parse
 * When posting <file:src/test/resources/popular_artists_variable.graphql> with "size:4"
-* Then "popular_artists.artists" must contain "{name: Pablo Picasso, nationality: Spanish}"
+* Then "popular_artists.artists" contains "{name: Pablo Picasso, nationality: Spanish}"
 
 ## popular artists contain matching with table to parse
 * When posting <file:src/test/resources/popular_artists_variable.graphql> with 
@@ -28,11 +28,11 @@
    |name|value|
    |----|-----|
    |size|4    |
-* Then "popular_artists.artists" must contain "{name: Pablo Picasso, nationality: Spanish}"
+* Then "popular_artists.artists" contains "{name: Pablo Picasso, nationality: Spanish}"
 
-## popular artists must be matching with table
+## popular artists is matching with table
 * When posting <file:src/test/resources/popular_artists.graphql>
-* Then "popular_artists.artists" must be 
+* Then "popular_artists.artists" is 
 
    |name         |nationality|
    |-------------|-----------|
@@ -41,7 +41,7 @@
 
 ## popular artists contain matching with table
 * When posting <file:src/test/resources/popular_artists.graphql>
-* Then "popular_artists.artists" must contain 
+* Then "popular_artists.artists" contains 
 
    |name         |nationality|
    |-------------|-----------|
