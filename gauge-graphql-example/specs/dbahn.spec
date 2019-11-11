@@ -1,6 +1,6 @@
 # Deutsche Bahn QL
 
-* Use "https://bahnql.herokuapp.com/graphql"
+* Given the endpoint "https://bahnql.herokuapp.com/graphql"
 
 ## station Frankfurt
 * When posting <file:src/test/resources/dbahn_frankfurt.graphql>

@@ -1,6 +1,6 @@
 # Fruit Shop Products
 
-* Use "https://api.predic8.de:443/shop/products/"
+* Given the endpoint "https://api.predic8.de:443/shop/products/"
 
 ## Get Apples
 * When getting "50"
