@@ -17,3 +17,7 @@
 * When getting "comments" with "postId=1"
 * And extracting "id" where "email=Nikita@garfield.biz"
 * Then "id" is "3"
+
+## Putting
+* When putting <file:src/test/resources/jsonplaceholder_put.json> to "posts/50"
+* Then status code is "200"

@@ -1,0 +1,6 @@
+{
+  "userId" : "2",
+  "id" : "19",
+  "title" : "this is projectdebug.com",
+  "body" : "i am testing REST api with REST-Assured and sending a PUT request."
+}
