@@ -15,13 +15,7 @@
         <dependency>
             <groupId>com.github.ajoecker</groupId>
             <artifactId>gauge-rest</artifactId>
-            <version>0.3.3-SNAPSHOT</version>
-            <scope>test</scope>
-        </dependency>
-        <dependency>
-            <groupId>com.github.ajoecker</groupId>
-            <artifactId>gauge-random-data</artifactId>
-            <version>0.1-SNAPSHOT</version>
+            <version>0.3.4-SNAPSHOT</version>
             <scope>test</scope>
         </dependency>
     </dependencies>
