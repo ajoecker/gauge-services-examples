@@ -1,8 +1,0 @@
-{
-    popular_artists(size: 2) {
-        artists {
-            name
-            nationality
-        }
-    }
-}

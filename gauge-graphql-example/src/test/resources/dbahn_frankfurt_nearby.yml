@@ -1,0 +1,13 @@
+query: >
+  {
+    nearby(latitude: %stationWithEvaId.location.latitude%, longitude: %stationWithEvaId.location.longitude%, radius: 2000) {
+      stations(count: 5) {
+        name
+        primaryEvaId
+        location {
+          latitude
+          longitude
+        }
+      }
+    }
+  }

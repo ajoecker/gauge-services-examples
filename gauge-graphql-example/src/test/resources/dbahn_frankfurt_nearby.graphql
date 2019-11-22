@@ -1,7 +1,0 @@
-{
-   nearby(latitude: %latitude%, longitude: %longitude%, radius: %radius%) {
-     stations(count: 5) {
-       name
-     }
-   }
- }

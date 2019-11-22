@@ -1,0 +1,14 @@
+query: >
+    {
+        stationWithEvaId(evaId: 8000105) {
+            name
+            location {
+                latitude
+                longitude
+            }
+            picture {
+                url
+            }
+            federalState
+        }
+    }

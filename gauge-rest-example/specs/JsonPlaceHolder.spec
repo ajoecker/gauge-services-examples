@@ -1,7 +1,6 @@
 # Json Place Holder
 
 * Given the endpoint "https://jsonplaceholder.typicode.com/"
-//* Create "email" uniquely with length "5"
 * Set "email" to "Nikita@garfield.biz"
 
 ## Comments with id and table
