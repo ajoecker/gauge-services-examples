@@ -15,7 +15,7 @@
         <dependency>
             <groupId>com.github.ajoecker</groupId>
             <artifactId>gauge-rest</artifactId>
-            <version>0.3.4-SNAPSHOT</version>
+            <version>0.4</version>
             <scope>test</scope>
         </dependency>
     </dependencies>
