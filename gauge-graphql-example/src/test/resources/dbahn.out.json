@@ -1,0 +1,15 @@
+{
+  "data":{
+    "stationWithEvaId":{
+      "name":"Frankfurt (Main) Hbf",
+      "location":{
+        "latitude":50.107145,
+        "longitude":8.663789
+      },
+      "picture":{
+        "url":"https://fotos.railway-stations.org/fotos/de/1866.jpg"
+      },
+      "federalState":"Hessen"
+    }
+  }
+}

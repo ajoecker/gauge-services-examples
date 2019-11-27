@@ -5,6 +5,7 @@
 ## station Frankfurt
 * When posting <file:src/test/resources/dbahn_frankfurt.yml>
 * Then "stationWithEvaId.name" is "Frankfurt (Main) Hbf"
+* And the response is equal to <file:src/test/resources/dbahn.out.json>
 * And the request finished in less than "5000" ms
 
 ## stations around Frankfurt with table
